@@ -10,10 +10,12 @@ export default function Projects() {
         <ProjectsBody>
             {
                 AllProjects?.map(item => (
-                    <Link key={item.id} to={item.aTag}>
+                    <a href={item.aTag}>
                         <h1>{item.name}</h1>
                         <ImgProject src={item.src} alt={item.src} />
-                    </Link>
+                    </a>
+                    // <Link key={item.id} to={item.aTag}>
+                    // </Link>
                 ))
             }
         </ProjectsBody>

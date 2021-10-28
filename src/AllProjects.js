@@ -3,7 +3,7 @@ const AllProjects = [
         id: 1,
         name: 'eurobazzar',
         aTag: 'https://Eurobazzar.com/',
-        src: './img/Eurobazzar.jpg'
+        src: `${window.origin}/assets/img/Eurobazzar.jpg`
     },
 
 
@@ -12,63 +12,63 @@ const AllProjects = [
         id: 2,
         name: 'konsulenthus',
         aTag: 'https://konsulenthus.no/',
-        src: './img/konsulenthus.jpg'
+        src: `${window.origin}/assets/img/konsulenthus.jpg`
     },
     {
         id: 3,
         name: 'autoa2',
         aTag: 'https://a2auto.no/',
-        src: '../img/A2auto.jpg'
+        src: `${window.origin}/assets/img/A2auto.jpg`
     },
     {
 
         id: 4,
         name: 'apameshop',
         aTag: 'https://apameshop.no/',
-        src: './img/Apameshop.jpg'
+        src: `${window.origin}/assets/img/Apameshop.jpg`
     },
     {
 
         id: 5,
         name: 'artimismedicalbeauty',
         aTag: 'https://artimismedicalbeauty.no/',
-        src: './img/Artimismedicalbeauty.jpg'
+        src: `${window.origin}/assets/img/Artimismedicalbeauty.jpg`
     },
     {
         id: 6,
         name: 'godthandverk',
         aTag: 'https://godthandverk.no/',
-        src: './img/Godthandverk.jpg'
+        src: `${window.origin}/assets/img/Godthandverk.jpg`
     },
     {
         id: 7,
         name: 'narverud',
         aTag: 'https://narverud.no/',
-        src: './img/eurobazzar.jpg'
+        src: `${window.origin}/assets/img/eurobazzar.jpg`
     },
     {
         id: 8,
         name: 'persiarestaurant',
         aTag: 'https://persiarestaurant.no/',
-        src: './img/Persia.jpg'
+        src: `${window.origin}/assets/img/Persia.jpg`
     },
     {
         id: 9,
         name: 'privehairandbeauty',
         aTag: 'https://privehairandbeauty.no/',
-        src: './img/Privehairandbeauty.jpg'
+        src: `${window.origin}/assets/img/Privehairandbeauty.jpg`
     },
     {
         id: 10,
         name: 'soofirestaurant',
         aTag: 'https://soofirestaurant.no/',
-        src: './img/Soofirestaurant.jpg'
+        src: `${window.origin}/assets/img/Soofirestaurant.jpg`
     },
     {
         id: 11,
         name: 'validregnskapas',
         aTag: 'https://validregnskapas.no/',
-        src: './img/Validregnskapas.jpg'
+        src: `${window.origin}/assets/img/Validregnskapas.jpg`
     }
 
 ];
