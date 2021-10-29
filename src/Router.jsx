@@ -9,6 +9,7 @@ import Home from './components/Home'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
 
 
 export default function Router() {
@@ -25,6 +26,9 @@ export default function Router() {
                 </Route>
                 <Route exact path="/test">
                     <h1>test</h1>
+                </Route>
+                <Route exact path="/Contact">
+                    <Contact />
                 </Route>
             </Switch>
             <Footer />

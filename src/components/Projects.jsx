@@ -32,6 +32,22 @@ const ProjectsBody = styled.div`
     width: 100%;
     flex-wrap: wrap;
     padding: 7%;
+    a {
+        text-decoration: none;
+        padding: 0px 3px;
+    }
+    h1 {
+        color : black;
+    }
 `
 const ImgProject = styled.img`
+    width: 350px;
+    object-fit: cover;
+    filter: grayscale(80%);
+    :hover {
+    filter: grayscale(0%);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    
+    }
+
 `

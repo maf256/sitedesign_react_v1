@@ -7,17 +7,20 @@ import logo2Src from '../assets/img/instagram.svg';
 import logo3Src from '../assets/img/linkedin.svg';
 import logo4Src from '../assets/img/email.svg';
 import logo5Src from '../assets/img/phone-call.svg';
+import logo6Src from '../assets/img/whatsapp.svg';
 
 export default function Footer() {
 
     return (
         <Footersection>
             <div>
-                <ATag to="/test"><Logo src={logo1Src} alt="sitedesign logo" /></ATag>
-                <ATag to="/test"><Logo src={logo2Src} alt="sitedesign logo" /></ATag>
-                <ATag to="/test"><Logo src={logo3Src} alt="sitedesign logo" /></ATag>
-                <ATag to="/test"><Logo src={logo4Src} alt="sitedesign logo" /></ATag>
-                <ATag to="/test"><Logo src={logo5Src} alt="sitedesign logo" /></ATag>
+                <a href="https://www.facebook.com/sitedesign.no"><Logo src={logo1Src} alt="sitedesign logo" /></a>
+                <a href="https://www.instagram.com/sitedesign.no"><Logo src={logo2Src} alt="sitedesign logo" /></a>
+                <a href="https://www.linkedin.com/company/71210369"><Logo src={logo3Src} alt="sitedesign logo" /></a>
+                <a href="mailto:info@sitedesign.no"><Logo src={logo4Src} alt="sitedesign logo" /></a>
+                <a href="tel:+4740075666"><Logo src={logo5Src} alt="sitedesign logo" /></a>
+                <a href="https://wa.me/+4740075666"><Logo src={logo6Src} alt="sitedesign logo" /></a>
+
             </div>
             <div>
                 <h1>© 2018 All rights reserved by : <ATag to="/">Sitedesign</ATag></h1>
@@ -62,8 +65,5 @@ const Logo = styled.img`
     }
 `
 const ATag = styled(Link)`
-    width: 35px;
-    height: 35px;
-    margin: 5px;
-    
+
 `
