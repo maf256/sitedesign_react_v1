@@ -3,9 +3,8 @@ import styled from 'styled-components'
 import Phone from '../assets/img/phone-call.svg'
 import whatsapp from '../assets/img/whatsapp.svg'
 import email from '../assets/img/email.svg'
-import facebook from '../assets/img/facebook.svg'
-import instagram from '../assets/img/instagram.svg'
-import linkedin from '../assets/img/linkedin.svg'
+import landing from '../assets/img/contactus.svg'
+
 const Contact = () => {
       return (
             <ContactContainer>
@@ -15,19 +14,16 @@ const Contact = () => {
                         <h1>SITEDESIGN</h1>
                         <p>Address : Sandvika, Norway</p>
                         <a href="tel:+4740075666">
-                              <img src={Phone}></img>&nbsp; &nbsp; Tlf:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  +47 400 75 666
+                              <Icon src={Phone}></Icon>&nbsp; &nbsp; Tlf:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  +47 400 75 666
                         </a>
                         <a href="https://wa.me/+4740075666">
-                              <img src={whatsapp}></img>&nbsp; &nbsp;Whatsapp: +47 400 75 666
+                              <Icon src={whatsapp}></Icon>&nbsp; &nbsp;Whatsapp: +47 400 75 666
                         </a>
                         <a href="mailto:info@sitedesign.no">
-                              <img src={email}></img>&nbsp; &nbsp; info@Sitedesign.no
+                              <Icon src={email}></Icon>&nbsp; &nbsp; info@Sitedesign.no
                         </a>
-                        <a href="https://www.facebook.com/sitedesign.no"><img src={facebook}></img></a>
-                        <a href="https://www.instagram.com/sitedesign.no"><img src={instagram}></img></a>
-                        <a href="https://www.linkedin.com/company/71210369"><img src={linkedin}></img></a>
-
                   </div>
+                  <Landingimg src={landing}></Landingimg>
 
             </ContactContainer>
       )
@@ -36,21 +32,52 @@ const Contact = () => {
 export default Contact
 
 const ContactContainer = styled.div`
-      min-height:500px;
+      padding: 0px 50px;
+      padding-bottom: 50px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+      min-height: 82vh;
+      background-color: #dbdad5;
+      p {
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 27px;
+      }
+      h1 {
+            color: #998100;
+            text-shadow: 2px 2px #ffd700;
+            font-size:45px;
+      }
       a{
             display: flex;
             align-items: center;
             text-decoration: none;
-            color : black;
+            color : black;    
+            border-left: 4px solid #dbdad5;
+      }
+      a:hover {
+            border-left: 4px solid black;
 
       }
-      img {
-            width: 35px;
-            height: 35px;
-      }
+
+`
+
+const Icon = styled.img`
+      width: 35px;
+      height: 35px;
       img:hover {
             border: 1px solid black;
             
       }
+`
+const Landingimg = styled.img`
+      min-width:400px;
+      width: 45vw;
+      height: 45vh;
+      padding-top: 10px;
+
+
 
 `

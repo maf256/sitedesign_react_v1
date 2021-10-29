@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import logoSrc from '../assets/img/logo.jpg';
+import logoSrc from '../assets/img/logo2626.png';
 import routes from '../routes';
 // react component state
 // when you change the state, your component gets rerender
