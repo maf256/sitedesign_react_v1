@@ -1,8 +1,5 @@
 import styled from 'styled-components'
 import AllProjects from '../AllProjects';
-import { Link } from 'react-router-dom'
-
-
 
 export default function Projects() {
 

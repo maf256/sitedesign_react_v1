@@ -40,9 +40,9 @@ const Footersection = styled.div`
 
     div {
         display: flex;
-    justify-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
         width: 100%;
-        height: 50px;
     }
     h1 {
         margin: auto;

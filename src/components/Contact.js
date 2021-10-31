@@ -32,6 +32,7 @@ const Contact = () => {
 export default Contact
 
 const ContactContainer = styled.div`
+      max-width: 100vw;
       padding: 0px 50px;
       padding-bottom: 50px;
       display: flex;
@@ -56,6 +57,7 @@ const ContactContainer = styled.div`
             text-decoration: none;
             color : black;    
             border-left: 4px solid #dbdad5;
+            width: 250px;
       }
       a:hover {
             border-left: 4px solid black;
@@ -73,7 +75,7 @@ const Icon = styled.img`
       }
 `
 const Landingimg = styled.img`
-      min-width:400px;
+      min-width:300px;
       width: 45vw;
       height: 45vh;
       padding-top: 10px;

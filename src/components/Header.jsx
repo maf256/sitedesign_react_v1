@@ -61,7 +61,7 @@ const Logo = styled.img`
     width: 50px;
     height: 50px;
     background-color: black;
-
+    margin-left:10px;
 `
 const Navbar = styled.ul`
     @media (max-width: 750px) {
