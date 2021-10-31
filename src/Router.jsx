@@ -12,6 +12,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import About from './components/About'
 import Services from './components/Services'
+import Itconsulting from './components/Itconsulting'
 
 export default function Router() {
     return (
@@ -36,6 +37,9 @@ export default function Router() {
                 </Route>
                 <Route exact path="/Services">
                     <Services />
+                </Route>
+                <Route exact path="/Itconsulting">
+                    <Itconsulting />
                 </Route>
             </Switch>
             <Footer />

@@ -6,7 +6,7 @@ const Services = () => {
       return (
             <ServicesContainer>
                   <ServiceContainer>
-                        <Link to="/test">
+                        <Link to="/Itconsulting">
                               <H1Services>IT Consulting</H1Services>
                               <PServices>
                                     We create the best connection between the customer’s needs and the IT solution that will meet the needs and also best suggestion for hardware. We helps you to choose the best solutions for accelerated growth of your business.
