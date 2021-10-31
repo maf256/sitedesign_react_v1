@@ -11,6 +11,7 @@ import Footer from './components/Footer'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import About from './components/About'
+import Services from './components/Services'
 
 export default function Router() {
     return (
@@ -32,6 +33,9 @@ export default function Router() {
                 </Route>
                 <Route exact path="/Contact">
                     <Contact />
+                </Route>
+                <Route exact path="/Services">
+                    <Services />
                 </Route>
             </Switch>
             <Footer />
