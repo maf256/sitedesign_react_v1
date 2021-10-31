@@ -4,14 +4,10 @@ import styled from 'styled-components'
 const Itconsulting = () => {
       return (
             <div>
-                  <Aboutcontainer>
-                        sdfsdfsdf
-                  </Aboutcontainer>
-
+                  sdfsdfsdf
             </div>
       )
 }
 
 export default Itconsulting
 
-const 
