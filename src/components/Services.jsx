@@ -27,7 +27,7 @@ const Services = () => {
                         <Link to="/test">
                               <H1Services>Wordpress</H1Services>
                               <PServices>
-                                    WordPress&nbsp;is a free and open-source software written in&nbsp;PHP and paired with a&nbsp;MySQL&nbsp;or&nbsp;MariaDB&nbsp;database, Wordpress is a piece of software that allows you to easily manage content without writing code or learning programming.
+                                    WordPress is a free and open-source software written in PHP and paired with a MySQL or MariaDB database, Wordpress is a piece of software that allows you to easily manage content without writing code or learning programming.
                               </PServices>
                         </Link>
 
@@ -36,7 +36,7 @@ const Services = () => {
                         <Link to="/test">
                               <H1Services>SEO</H1Services>
                               <PServices>
-                                    (SEO) is the process of improving the quality and quantity of&nbsp;website traffic&nbsp;to a&nbsp;website from&nbsp;search engines. The tactic is to optimize to achieve the best possible visibility with the search engines on your products and services.
+                                    (SEO) is the process of improving the quality and quantity of website traffic to a website from search engines. The tactic is to optimize to achieve the best possible visibility with the search engines on your products and services.
                               </PServices>
                         </Link>
 
@@ -101,6 +101,11 @@ const ServiceContainer = styled.div`
     box-sizing: border-box;
     width: 320px;
     height: 340px;
+    @media (max-width: 500px) {
+      width: 300px;
+      height: 310px;
+
+}
     background-color: white;
     box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
     margin: 2vh 2vw;
@@ -116,6 +121,9 @@ const H1Services = styled.h1`
     margin: 4%;
     font-weight: bold;
     text-shadow: 1px 1px #b29600;
+    @media (max-width: 500px) {
+      font-size: 22px;
+  }
 `
 const PServices = styled.p`
     text-align: inherit;
@@ -124,5 +132,8 @@ const PServices = styled.p`
     margin: 6%;
     line-height: 26px;
     color: black;
+    @media (max-width: 500px) {
+      font-size: 16px;
+  }
 `
 
