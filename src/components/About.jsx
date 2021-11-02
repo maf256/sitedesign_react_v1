@@ -51,7 +51,8 @@ const About = () => {
 export default About
 
 const Maincontainer = styled.div`
-      padding-top: 20px;
+      padding-top: 100px;
+      min-height:85vh;
       background-color: #dbdad5;
 `
 

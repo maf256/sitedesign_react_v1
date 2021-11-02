@@ -13,6 +13,7 @@ import Contact from './components/Contact'
 import About from './components/About'
 import Services from './components/Services'
 import Itconsulting from './components/Itconsulting'
+import Website from './components/Website'
 
 export default function Router() {
     return (
@@ -40,6 +41,9 @@ export default function Router() {
                 </Route>
                 <Route exact path="/ITconsulting">
                     <Itconsulting />
+                </Route>
+                <Route exact path="/Website">
+                    <Website />
                 </Route>
             </Switch>
             <Footer />

@@ -1,6 +1,5 @@
 import React from 'react'
 import { H1, Maincontainer, Rowdiv, Textdiv, Imgdiv, H2, P } from './About'
-import styled from 'styled-components'
 
 const Itconsulting = () => {
       return (
