@@ -22,7 +22,7 @@ const routes = [{
     {
         id: 23,
         title: 'Webshop',
-        path: "/Webshop"
+        path: "/Webshops"
     },
     {
         id: 24,

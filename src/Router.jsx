@@ -16,6 +16,8 @@ import Itconsulting from './components/Itconsulting'
 import Website from './components/Website'
 import Wordpress from './components/Wordpress'
 import Programming from './components/Programming'
+import Webshops from './components/Webshops'
+
 
 export default function Router() {
     return (
@@ -52,6 +54,9 @@ export default function Router() {
                 </Route>
                 <Route exact path="/Programming">
                     <Programming />
+                </Route>
+                <Route exact path="/Webshops">
+                    <Webshops />
                 </Route>
             </Switch>
             <Footer />
