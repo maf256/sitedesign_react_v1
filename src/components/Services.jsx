@@ -54,7 +54,7 @@ const Services = () => {
                         </Link>
 
                   </ServiceContainer>
-                  <ServiceContainer>
+                  {/* <ServiceContainer>
                         <Link to="/Graphicdesign">
                               <H1Services>Graphic Design</H1Services>
                               <PServices>
@@ -70,7 +70,7 @@ const Services = () => {
                                     At a high level, digital marketing refers to advertising delivered through digital channels such as search engines, websites, social media, Instagram, Facebook, email, and mobile apps.                               </PServices>
                         </Link>
 
-                  </ServiceContainer>
+                  </ServiceContainer> */}
 
             </ServicesContainer>
 

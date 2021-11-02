@@ -17,6 +17,7 @@ import Website from './components/Website'
 import Wordpress from './components/Wordpress'
 import Programming from './components/Programming'
 import Webshops from './components/Webshops'
+import SEO from './components/SEO'
 
 
 export default function Router() {
@@ -57,6 +58,9 @@ export default function Router() {
                 </Route>
                 <Route exact path="/Webshops">
                     <Webshops />
+                </Route>
+                <Route exact path="/SEO">
+                    <SEO />
                 </Route>
             </Switch>
             <Footer />

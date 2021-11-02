@@ -39,11 +39,11 @@ const routes = [{
         title: 'SEO',
         path: "/SEO"
     },
-    {
-        id: 27,
-        title: 'Graphic Design',
-        path: "/GraphicDesign"
-    }
+        // {
+        //     id: 27,
+        //     title: 'Graphic Design',
+        //     path: "/GraphicDesign"
+        // }
     ]
 },
 {
