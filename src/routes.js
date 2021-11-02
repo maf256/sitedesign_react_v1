@@ -27,7 +27,7 @@ const routes = [{
     {
         id: 24,
         title: 'Programing',
-        path: "/Programing"
+        path: "/Programming"
     },
     {
         id: 25,

@@ -15,6 +15,7 @@ import Services from './components/Services'
 import Itconsulting from './components/Itconsulting'
 import Website from './components/Website'
 import Wordpress from './components/Wordpress'
+import Programming from './components/Programming'
 
 export default function Router() {
     return (
@@ -48,6 +49,9 @@ export default function Router() {
                 </Route>
                 <Route exact path="/Wordpress">
                     <Wordpress />
+                </Route>
+                <Route exact path="/Programming">
+                    <Programming />
                 </Route>
             </Switch>
             <Footer />
