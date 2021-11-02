@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const About = () => {
       return (
-            <Aboutcontainer>
+            <Maincontainer>
                   <Rowdiv>
                         <Textdiv>
                               <H1>WHO WE ARE</H1>
@@ -44,13 +44,13 @@ const About = () => {
                         <Imgdiv><img src={`${window.origin}/assets/img/aboutus5.jpg`}></img></Imgdiv>
                   </Rowdiv>
 
-            </Aboutcontainer>
+            </Maincontainer>
       )
 }
 
 export default About
 
-const Aboutcontainer = styled.div`
+const Maincontainer = styled.div`
       padding-top: 20px;
       background-color: #dbdad5;
 `
@@ -69,15 +69,18 @@ const Textdiv = styled.div`
 `
 
 const Imgdiv = styled.div`
-      max-width: 100vw;
       min-width: 300px;
       img {
             max-width: 550px;
-            min-width: 300px;
             object-fit: cover;
-
-
       }
+      @media (max-width: 550px) {
+            width: 100%;
+            img {
+            width: 100%;
+            object-fit: cover;
+      }
+  }
 `
 
 const H1 = styled.h1` 
@@ -100,3 +103,5 @@ const P = styled.p`
       margin-top: 2px;
 
 `
+
+export { About, H1, Maincontainer, Rowdiv, Textdiv, Imgdiv, H2, P }

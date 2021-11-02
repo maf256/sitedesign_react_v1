@@ -12,37 +12,37 @@ const routes = [{
     subMenu: [{
         id: 21,
         title: 'IT Consulting',
-        path: "/Services/ITConsulting"
+        path: "/ITConsulting"
     },
     {
         id: 22,
         title: 'Website',
-        path: "/Services/Website"
+        path: "/Website"
     },
     {
         id: 23,
         title: 'Webshop',
-        path: "/Services/Webshop"
+        path: "/Webshop"
     },
     {
         id: 24,
         title: 'Programing',
-        path: "/Services/Programing"
+        path: "/Programing"
     },
     {
         id: 25,
         title: 'Wordpress',
-        path: "/Services/Wordpress"
+        path: "/Wordpress"
     },
     {
         id: 26,
         title: 'SEO',
-        path: "/Services/SEO"
+        path: "/SEO"
     },
     {
         id: 27,
         title: 'Graphic Design',
-        path: "/Services/GraphicDesign"
+        path: "/GraphicDesign"
     }
     ]
 },

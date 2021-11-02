@@ -38,7 +38,7 @@ export default function Router() {
                 <Route exact path="/Services">
                     <Services />
                 </Route>
-                <Route exact path="/Itconsulting">
+                <Route exact path="/ITconsulting">
                     <Itconsulting />
                 </Route>
             </Switch>

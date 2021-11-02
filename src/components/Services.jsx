@@ -6,7 +6,7 @@ const Services = () => {
       return (
             <ServicesContainer>
                   <ServiceContainer>
-                        <Link to="/Itconsulting">
+                        <Link to="/ITconsulting">
                               <H1Services>IT Consulting</H1Services>
                               <PServices>
                                     We create the best connection between the customer’s needs and the IT solution that will meet the needs and also best suggestion for hardware. We helps you to choose the best solutions for accelerated growth of your business.
@@ -133,7 +133,7 @@ const PServices = styled.p`
     line-height: 26px;
     color: black;
     @media (max-width: 500px) {
-      font-size: 16px;
+      font-size: 15px;
   }
 `
 
