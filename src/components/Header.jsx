@@ -13,7 +13,7 @@ export default function Header() {
     const [hamContent, setHamContent] = useState('☰')
 
     function onClickHam() {
-        if (hamContent == "☰") {
+        if (hamContent === "☰") {
             setHamContent('╳')
         } else {
             setHamContent('☰')
@@ -123,6 +123,7 @@ const ServicesMenu = styled.ul`
     /* opacity: 0; */
     box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
     transition: all 0.3s ease-in-out 0s, visibility 400ms ease-in-out 100ms, opacity 400ms ease-in-out 100ms, top 400ms ease-in-out 100ms;
+    z-index: 1;
 `
 const HamMenu = styled.a`
     padding-right: 10px;

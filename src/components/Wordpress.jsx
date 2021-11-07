@@ -11,7 +11,7 @@ const Wordpress = () => {
                               <H2>What is a WordPress Website?</H2>
                               <P>A WordPress website is any website that uses WordPress as its content management system (CMS). WordPress powers both the backend of the website (the interface where a user logs in to make changes or add new content) and the frontend (the visible part of the website that your visitors see on the web).</P>
                         </Textdiv>
-                        <Imgdiv><img src={`${window.origin}/assets/img/Wordpress1.jpg`}></img></Imgdiv>
+                        <Imgdiv><img src={`${window.origin}/assets/img/Wordpress1.jpg`} alt="site design"></img></Imgdiv>
                   </Rowdiv>
                   <Rowdiv>
                         <Textdiv>

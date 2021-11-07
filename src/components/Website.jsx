@@ -13,7 +13,7 @@ const Website = () => {
                               <H2>Web Design & Development Services</H2>
                               <P>What does your website do for you? Does it engage visitors? Does it tell your story and demonstrate your brand’s value? Does it add value? Whether you need to improve sales or reputation, revitalize an aging website or build a new one from scratch, The Konsulenthus offers comprehensive web design and development services to help you better connect with your customers.</P>
                         </Textdiv>
-                        <Imgdiv><img src={`${window.origin}/assets/img/ITConsulting3.jpg`}></img></Imgdiv>
+                        <Imgdiv><img src={`${window.origin}/assets/img/ITConsulting3.jpg`} alt="site design"></img></Imgdiv>
                   </Rowdiv>
             </Maincontainer>
       )

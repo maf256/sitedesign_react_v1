@@ -1,7 +1,5 @@
 import styled from 'styled-components'
-// import Logo from './Header'
 import { Link } from 'react-router-dom'
-import logoSrc from '../assets/img/logo.jpg';
 import logo1Src from '../assets/img/facebook.svg';
 import logo2Src from '../assets/img/instagram.svg';
 import logo3Src from '../assets/img/linkedin.svg';

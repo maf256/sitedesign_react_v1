@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
 import SrsHomeImage from '../assets/img/sitedesign-landing.svg'
 import Services from './Services'
 
