@@ -114,7 +114,7 @@ const H1Services = styled.h1`
     color: #ffd700; 
     margin: 4%;
     font-weight: bold;
-    text-shadow: 1px 1px #b29600;
+    text-shadow: 1px 1px rgb(99 86 15);
     @media (max-width: 500px) {
       font-size: 22px;
   }

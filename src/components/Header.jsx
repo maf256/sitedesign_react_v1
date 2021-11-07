@@ -23,7 +23,7 @@ export default function Header() {
 
     return (
         <HeaderSection>
-            <Link to="/test"><Logo src={logoSrc} alt="sitedesign logo" /></Link>
+            <Link to="/"><Logo src={logoSrc} alt="site design logo" /></Link>
             <Navbar hamShow={hamContent}>
                 {routes.map((item) => (
                     <li key={item.id}>
