@@ -44,7 +44,7 @@ const AllProjects = [
         id: 7,
         name: 'narverud',
         aTag: 'https://narverud.no/',
-        src: `${window.origin}/assets/img/eurobazzar.jpg`
+        src: `${window.origin}/assets/img/Narverud.jpg`
     },
     {
         id: 8,

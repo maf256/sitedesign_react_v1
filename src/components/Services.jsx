@@ -111,7 +111,7 @@ const ServiceContainer = styled.div`
 
 const H1Services = styled.h1`
     text-align: center;
-    color: #ffd700; 
+    color: #bea30a; 
     margin: 4%;
     font-weight: bold;
     text-shadow: 1px 1px rgb(99 86 15);
