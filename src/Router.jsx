@@ -62,6 +62,8 @@ export default function Router() {
                 <Route exact path="/SEO">
                     <SEO />
                 </Route>
+                <Route component={Home} />
+
             </Switch>
             <Footer />
         </BrowserRouter>
