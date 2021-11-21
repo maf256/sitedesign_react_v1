@@ -26,9 +26,7 @@ export default function Router() {
             {/* <reset /> */}
             <Header />
             <Switch>
-                <Route exact path="/">
-                    <Home />
-                </Route>
+
                 <Route exact path="/Projects">
                     <Projects />
                 </Route>
@@ -62,7 +60,9 @@ export default function Router() {
                 <Route exact path="/SEO">
                     <SEO />
                 </Route>
-                <Route component={Home} />
+                <Route path="/">
+                    <Home />
+                </Route>
 
             </Switch>
             <Footer />
