@@ -18,6 +18,8 @@ import Wordpress from './components/Wordpress'
 import Programming from './components/Programming'
 import Webshops from './components/Webshops'
 import SEO from './components/SEO'
+import Demo from './components/Demo'
+
 
 
 export default function Router() {
@@ -59,6 +61,9 @@ export default function Router() {
                 </Route>
                 <Route exact path="/SEO">
                     <SEO />
+                </Route>
+                <Route exact path="/Demo">
+                    <Demo />
                 </Route>
                 <Route path="/">
                     <Home />

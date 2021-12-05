@@ -54,12 +54,18 @@ const routes = [{
 },
 {
     id: 4,
+    title: 'Demo',
+    path: '/Demo',
+    subMenu: []
+},
+{
+    id: 5,
     title: 'About',
     path: '/About',
     subMenu: []
 },
 {
-    id: 5,
+    id: 6,
     title: 'Contact',
     path: '/Contact',
     subMenu: []

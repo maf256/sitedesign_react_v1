@@ -77,6 +77,7 @@ const Navbar = styled.ul`
         position: absolute;
         top: 0;
         left: 0;
+        z-index:4;
         li a {
             font-size: 35px;
         }
@@ -134,7 +135,7 @@ const HamMenu = styled.a`
     font-size: 30px;
     @media (max-width: 750px) {
         display: block;
-        z-index:3;
+        z-index:30;
     }
 
 
