@@ -80,6 +80,7 @@ const Navbar = styled.ul`
         z-index:4;
         li a {
             font-size: 35px;
+            text-decoration: none;
         }
 
     }
@@ -121,6 +122,7 @@ const ServicesMenu = styled.ul`
     background: #6e2c2c;
     padding: 10px;
     height: 320px;
+    list-style: none;
     /* opacity: 0; */
     box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
     transition: all 0.3s ease-in-out 0s, visibility 400ms ease-in-out 100ms, opacity 400ms ease-in-out 100ms, top 400ms ease-in-out 100ms;

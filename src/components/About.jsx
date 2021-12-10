@@ -53,7 +53,7 @@ export default About
 const Maincontainer = styled.div`
       padding-top: 100px;
       min-height:85vh;
-      background-color: #dbdad5;
+      background-color: #6667ab;
 `
 
 const Rowdiv = styled.div`

@@ -24,7 +24,7 @@ const DemoBody = styled.div`
     width: 100%;
     min-height: 400px;
     justify-content: space-evenly;
-    background-color: #ddd;
+    background-color: #6667ab;
     color: #333;
     width: 100%;
     flex-wrap: wrap;

@@ -24,6 +24,7 @@ const HomeTopSection = styled.div`
     padding: 0px auto;
     display: flex;
     align-items: center;
+    background-color:#6667ab ;
     h1 { 
         width: 50%;
         font-family: "Dancing Script", cursive;
