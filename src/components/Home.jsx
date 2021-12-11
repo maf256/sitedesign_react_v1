@@ -10,7 +10,7 @@ export default function Home() {
         <>
             <HomeTopSection>
                 <h1>Welcome to Sitedesign</h1>
-                <img src={SrsHomeImage} alt="sitedesign" />
+                <img src={SrsHomeImage} alt="site design sandvika" />
             </HomeTopSection>
             <Services />
         </>

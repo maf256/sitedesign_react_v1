@@ -11,7 +11,7 @@ const About = () => {
                               <H2>We believe in the power of the individual to make great things.</H2>
                               <P>We're SITEDESIGN team. Our mission is to help people with creative ideas stand out and succeed. We create a modern platform that enables millions to build a brand, share their stories, and transact with their customers in an impactful and beautiful online presence. Our services are : IT Consulting, Website, Webshop, Programming, Wordpress, SEO, Digital marketing, Graphic design.</P>
                         </Textdiv>
-                        <Imgdiv><img src={`${window.origin}/assets/img/ablout.jpg`} alt="ablout"></img></Imgdiv>
+                        <Imgdiv><img src={`${window.origin}/assets/img/ablout.jpg`} alt="site design sandvika"></img></Imgdiv>
                   </Rowdiv>
                   <Rowdiv>
                         <Imgdiv><img src={`${window.origin}/assets/img/aboutus2.jpg`} alt="site design"></img></Imgdiv>
@@ -81,6 +81,7 @@ const Imgdiv = styled.div`
       min-width: 300px;
       img {
             max-width: 550px;
+            height: auto;
             object-fit: cover;
             /* padding-left: 4px; */
       }
@@ -89,6 +90,7 @@ const Imgdiv = styled.div`
             img {
             width: 100%;
             max-width: 95vw;
+            height: auto;
             object-fit: cover;
       }
   }

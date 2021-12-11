@@ -9,7 +9,7 @@ export default function Demo() {
                         AllDemo?.map(item => (
                               <a href={item.aTag}>
                                     <h1>{item.name}</h1>
-                                    <ImgProject src={item.src} alt={item.src} />
+                                    <ImgProject src={item.src} alt={"web site design sandvika"} />
                               </a>
                               // <Link key={item.id} to={item.aTag}>
                               // </Link>
@@ -40,6 +40,7 @@ const DemoBody = styled.div`
 `
 const ImgProject = styled.img`
     width: 350px;
+    height: auto;
     object-fit: cover;
     filter: grayscale(80%);
     :hover {
