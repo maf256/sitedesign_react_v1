@@ -27,13 +27,13 @@ export default function Header() {
             <Navbar hamShow={hamContent}>
                 {routes.map((item) => (
                     <li key={item.id}>
-                        <Link to={item.path}>
+                        <Link onClick={onClickHam} to={item.path}>
                             {item.title}
                         </Link>
                         <ServicesMenu isShow={item.subMenu.length}>
                             {item.subMenu.map((subItem) => (
                                 <li key={subItem.id}>
-                                    <Link to={subItem.path}>
+                                    <Link onClick={onClickHam} to={subItem.path}>
                                         {subItem.title}
                                     </Link>
                                 </li>

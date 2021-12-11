@@ -74,6 +74,7 @@ const Imgdiv = styled.div`
       img {
             max-width: 550px;
             object-fit: cover;
+            padding-left: 4px;
       }
       @media (max-width: 550px) {
             width: 100%;
