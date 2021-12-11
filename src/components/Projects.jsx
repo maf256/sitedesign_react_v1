@@ -29,6 +29,8 @@ const ProjectsBody = styled.div`
     width: 100%;
     flex-wrap: wrap;
     padding: 7%;
+    padding-top: 150px;
+
     a {
         text-decoration: none;
         padding: 0px 3px;

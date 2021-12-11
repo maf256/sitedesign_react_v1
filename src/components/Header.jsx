@@ -107,6 +107,7 @@ const Navbar = styled.ul`
         top: 0;
         left: 0;
         z-index:4;
+        {document.body.style.overflow = "hidden"}
         li a {
             font-size: 35px;
             text-decoration: none;

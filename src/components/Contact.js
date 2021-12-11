@@ -33,8 +33,8 @@ export default Contact
 
 const ContactContainer = styled.div`
       max-width: 100vw;
-      padding: 0px 50px;
-      padding-bottom: 100px;
+      padding: 200px 50px;
+      padding-top: 150px;
       display: flex;
       justify-content: space-evenly;
       align-items: center;

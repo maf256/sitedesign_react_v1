@@ -54,6 +54,14 @@ const Maincontainer = styled.div`
       padding-top: 200px;
       min-height:90vh;
       background-color: #6667ab;
+      @media (max-width: 750px) {
+            display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+
+
+
 `
 
 const Rowdiv = styled.div`
@@ -74,12 +82,13 @@ const Imgdiv = styled.div`
       img {
             max-width: 550px;
             object-fit: cover;
-            padding-left: 4px;
+            /* padding-left: 4px; */
       }
-      @media (max-width: 550px) {
+      @media (max-width: 750px) {
             width: 100%;
             img {
             width: 100%;
+            max-width: 95vw;
             object-fit: cover;
       }
   }

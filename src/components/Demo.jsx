@@ -23,12 +23,13 @@ const DemoBody = styled.div`
     display: flex;
     width: 100%;
     min-height: 400px;
+    padding: 7%;
+    padding-top: 150px;
     justify-content: space-evenly;
     background-color: #6667ab;
     color: #333;
     width: 100%;
     flex-wrap: wrap;
-    padding: 7%;
     a {
         text-decoration: none;
         padding: 0px 3px;
