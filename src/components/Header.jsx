@@ -13,6 +13,7 @@ export default function Header() {
     const [hamContent, setHamContent] = useState('☰')
 
     function onClickHam() {
+        // if (title === "Services") return
         if (hamContent === "☰") {
             setHamContent('╳')
         } else {
@@ -27,7 +28,7 @@ export default function Header() {
             <Navbar hamShow={hamContent}>
                 {routes.map((item) => (
                     <li key={item.id}>
-                        <Link onClick={onClickHam} to={item.path}>
+                        <Link onClick={item.title !== "Services" && onClickHam} to={item.path}>
                             {item.title}
                         </Link>
                         <ServicesMenu isShow={item.subMenu.length}>
