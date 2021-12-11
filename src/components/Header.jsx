@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 // import './App.css';
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import logoSrc from '../assets/img/logo2626.png';
@@ -11,6 +11,15 @@ import routes from '../routes';
 
 export default function Header() {
     const [hamContent, setHamContent] = useState('☰')
+    const [offset, setOffset] = useState(0);
+
+    useEffect(() => {
+        window.onscroll = () => {
+            setOffset(window.pageYOffset)
+            // console.log(offset);
+        }
+    }, []);
+
 
     function onClickHam() {
         // if (title === "Services") return
@@ -23,7 +32,7 @@ export default function Header() {
     }
 
     return (
-        <HeaderSection>
+        <HeaderSection YOffset={offset}>
             <Link to="/"><Logo src={logoSrc} alt="site design logo" /></Link>
             <Navbar hamShow={hamContent}>
                 {routes.map((item) => (
@@ -56,12 +65,31 @@ const HeaderSection = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    ${({ YOffset }) => YOffset > 200 ?
+        `height: 4rem; 
+            color: white;
+            background-color: #00000069;
+            box-shadow: 0px 2px 5px rgb(0 0 0 / 10%);
+            `
+        :
+        `height: 7rem; 
+            color: black;
+            background-color: #00000000;
+            box-shadow: 0;
+            `
+    }
+      transition: all .5s ease-in-out;
+      position: fixed;
+      overflow: visible;
+      z-index: 1001;
+
 `
 
 const Logo = styled.img`
     width: 50px;
     height: 50px;
-    background-color: black;
+    /* background-color: black; */
     margin-left:10px;
 `
 const Navbar = styled.ul`
@@ -69,7 +97,7 @@ const Navbar = styled.ul`
         display: ${({ hamShow }) => hamShow === "╳" ? "flex" : "none"};
         flex-direction: column;
         justify-content: space-evenly;
-        background-color: #000000d9;
+        /* background-color: #000000d9; */
         align-items: center;
         width: 100vw;
         height: 100vh;
@@ -86,7 +114,7 @@ const Navbar = styled.ul`
 
     }
     list-style-type: none;
-    background-color: black;
+    /* background-color: black; */
     color: white;
     display: flex;
     padding-right: 20px;
@@ -96,7 +124,7 @@ const Navbar = styled.ul`
     }
     a {
         letter-spacing : 1px;
-        color: #c5baba;
+        color: #e9d5d5;
         font-size : 1.1rem;
         text-decoration: none;
     }
@@ -120,7 +148,8 @@ const ServicesMenu = styled.ul`
     visibility: hidden;
     position: absolute;
     top: 60px;
-    background: #6e2c2c;
+    /* background: #6e2c2c; */
+    background:#6a3093;
     padding: 10px;
     height: 320px;
     list-style: none;

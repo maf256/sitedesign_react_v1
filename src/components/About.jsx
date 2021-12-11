@@ -51,8 +51,8 @@ const About = () => {
 export default About
 
 const Maincontainer = styled.div`
-      padding-top: 100px;
-      min-height:85vh;
+      padding-top: 200px;
+      min-height:90vh;
       background-color: #6667ab;
 `
 
@@ -86,8 +86,8 @@ const Imgdiv = styled.div`
 `
 
 const H1 = styled.h1` 
-      color: #998100;
-      text-shadow: 2px 2px #ffd700;
+      color: #a58d08;
+      text-shadow: 0.5px 0.5px #ffd700;
       font-size: 28px;
       line-height: 25px;
       margin-top: 2px;

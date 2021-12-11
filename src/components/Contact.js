@@ -34,12 +34,12 @@ export default Contact
 const ContactContainer = styled.div`
       max-width: 100vw;
       padding: 0px 50px;
-      padding-bottom: 50px;
+      padding-bottom: 100px;
       display: flex;
       justify-content: space-evenly;
       align-items: center;
       flex-wrap: wrap;
-      min-height: 82vh;
+      min-height: 90vh;
       background-color: #6667ab;
       p {
             font-size: 18px;

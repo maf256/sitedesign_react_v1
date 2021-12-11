@@ -84,7 +84,7 @@ export default Services
 const ServicesContainer = styled.div`
     display: flex;
     justify-content: space-evenly;
-    background-color: #ddd;
+    background-color: #ab9090;
     color: #333;
     height: auto;
     flex-wrap: wrap;
@@ -100,7 +100,7 @@ const ServiceContainer = styled.div`
       height: 310px;
 
 }
-    background-color: white;
+    background-color: #d9c4c4;
     box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
     margin: 2vh 2vw;
     a{
@@ -111,7 +111,7 @@ const ServiceContainer = styled.div`
 
 const H1Services = styled.h1`
     text-align: center;
-    color: #bea30a; 
+    color: #a58d08; 
     margin: 4%;
     font-weight: bold;
     text-shadow: 1px 1px rgb(99 86 15);

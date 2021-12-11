@@ -33,6 +33,7 @@ export default function Footer() {
 const Footersection = styled.div`
     background-color: #c0c0c0;
     width: 100%;
+    padding-top: 10px;
     min-height:10vh;
     height: auto;
     margin: auto;
