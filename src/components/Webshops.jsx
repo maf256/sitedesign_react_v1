@@ -12,7 +12,7 @@ const Webshops = () => {
                               <H2>Ecommerce Website</H2>
                               <P>Start selling online with a dedicated ecommerce website. We’ll help coordinate your commerce goals with your platform and design a storefront that drives ongoing revenue for your business.</P>
                         </Textdiv>
-                        <Imgdiv><img src={`${window.origin}/assets/img/ITConsulting5.jpg`} alt="site design"></img></Imgdiv>
+                        <Imgdiv><img src={`${window.origin}/assets/img/ITConsulting5.jpg`} alt="website design sandvika"></img></Imgdiv>
                   </Rowdiv>
             </Maincontainer>
       )

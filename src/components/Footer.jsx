@@ -12,12 +12,12 @@ export default function Footer() {
     return (
         <Footersection>
             <div>
-                <a href="https://www.facebook.com/sitedesign.no"><Logo src={logo1Src} alt="site design logo" /></a>
-                <a href="https://www.instagram.com/sitedesign.no"><Logo src={logo2Src} alt="site design logo" /></a>
-                <a href="https://www.linkedin.com/company/71210369"><Logo src={logo3Src} alt="site design logo" /></a>
-                <a href="mailto:info@sitedesign.no"><Logo src={logo4Src} alt="site design logo" /></a>
-                <a href="tel:+4740075666"><Logo src={logo5Src} alt="site design logo" /></a>
-                <a href="https://wa.me/+4740075666"><Logo src={logo6Src} alt="site design logo" /></a>
+                <a href="https://www.facebook.com/sitedesign.no"><Logo src={logo1Src} alt="website design sandvika" /></a>
+                <a href="https://www.instagram.com/sitedesign.no"><Logo src={logo2Src} alt="website design sandvika" /></a>
+                <a href="https://www.linkedin.com/company/71210369"><Logo src={logo3Src} alt="website design sandvika" /></a>
+                <a href="mailto:info@sitedesign.no"><Logo src={logo4Src} alt="website design sandvika" /></a>
+                <a href="tel:+4740075666"><Logo src={logo5Src} alt="website design sandvika" /></a>
+                <a href="https://wa.me/+4740075666"><Logo src={logo6Src} alt="website design sandvika" /></a>
 
             </div>
             <div>

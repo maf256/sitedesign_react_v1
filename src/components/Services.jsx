@@ -54,23 +54,6 @@ const Services = () => {
                         </Link>
 
                   </ServiceContainer>
-                  {/* <ServiceContainer>
-                        <Link to="/Graphicdesign">
-                              <H1Services>Graphic Design</H1Services>
-                              <PServices>
-                                    Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, we use typography and pictures to meet users' specific needs to optimize the user experience.
-                              </PServices>
-                        </Link>
-
-                  </ServiceContainer>
-                  <ServiceContainer>
-                        <Link to="/Digitalmarketing">
-                              <H1Services>Digital Marketing</H1Services>
-                              <PServices>
-                                    At a high level, digital marketing refers to advertising delivered through digital channels such as search engines, websites, social media, Instagram, Facebook, email, and mobile apps.                               </PServices>
-                        </Link>
-
-                  </ServiceContainer> */}
 
             </ServicesContainer>
 
