@@ -31,7 +31,7 @@ const HomeTopSection = styled.div`
         text-shadow: 2px 2px #aca7a7;
         padding-bottom: 10%;
         padding-left: 8%;
-        color: rgb(27, 22, 22);
+        color: white;
         font-size: 6.5vw;
     }
     img {

@@ -108,13 +108,16 @@ const H2 = styled.h2`
       font-size: 24px;
       margin-top: 3px;
       font-weight: 100;
+      color: white;
+
       
 `
 const P = styled.p`  
       font-size: 16px;
       line-height: 27px;
       margin-top: 2px;
-
+      color: white;
+      letter-spacing: 0.2px;
 `
 
 export { About, H1, Maincontainer, Rowdiv, Textdiv, Imgdiv, H2, P }

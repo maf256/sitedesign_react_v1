@@ -133,7 +133,7 @@ const Navbar = styled.ul`
     }
     list-style-type: none;
     /* background-color: black; */
-    color: white;
+    /* color: white; */
     display: flex;
     padding-right: 20px;
     justify-content: space-between;
@@ -142,12 +142,12 @@ const Navbar = styled.ul`
     }
     a {
         letter-spacing : 1px;
-        color: #e9d5d5;
+        color: white ;
         font-size : 1.1rem;
         text-decoration: none;
     }
     a:hover {
-        color: white;
+        color: #e9d5d5;
         font-style: bold;
       
     }
