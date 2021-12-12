@@ -1,32 +1,51 @@
-// import logo from './logo.svg';
-// import './App.css';
-import { useState, useEffect } from 'react'
+
+import { useState, useEffect, useLayoutEffect } from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import logoSrc from '../assets/img/logo2626.png';
 import routes from '../routes';
-// react component state
-// when you change the state, your component gets rerender
-
 
 export default function Header() {
+
+    // function useWindowSize() {
+    //     const [size, setSize] = useState([0]);
+    //     useLayoutEffect(() => {
+    //         function updateSize() {
+    //             setSize(window.innerWidth);
+    //         }
+    //         window.addEventListener('resize', updateSize);
+    //         updateSize();
+    //         return () => window.removeEventListener('resize', updateSize);
+    //     }, []);
+    //     return size;
+    // }
+
+    // function ShowWindowDimensions(props) {
+    //     const [width, height] = useWindowSize();
+    //     return <span>Window size: {width} x {height}</span>;
+    // }
+
+
+
+
+
     const [hamContent, setHamContent] = useState('☰')
     const [offset, setOffset] = useState(0);
 
     useEffect(() => {
         window.onscroll = () => {
             setOffset(window.pageYOffset)
-            // console.log(offset);
         }
     }, []);
 
 
     function onClickHam() {
-        // if (title === "Services") return
         if (hamContent === "☰") {
             setHamContent('╳')
+            // { document.body.style.overflow = "hidden" }
         } else {
             setHamContent('☰')
+            // { document.body.style.overflow = "auto" }
         }
 
     }
@@ -89,7 +108,6 @@ const HeaderSection = styled.div`
 const Logo = styled.img`
     width: 50px;
     height: 50px;
-    /* background-color: black; */
     margin-left:10px;
 `
 const Navbar = styled.ul`
@@ -107,7 +125,6 @@ const Navbar = styled.ul`
         top: 0;
         left: 0;
         z-index:4;
-        {document.body.style.overflow = "hidden"}
         li a {
             font-size: 35px;
             text-decoration: none;
