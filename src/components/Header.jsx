@@ -52,7 +52,7 @@ export default function Header() {
 
     return (
         <HeaderSection YOffset={offset}>
-            <Link to="/"><Logo src={logoSrc} alt="website design sandvika" /></Link>
+            <Link to="/"><Logo src={logoSrc} alt="webdesign sandvika" /></Link>
             <Navbar hamShow={hamContent}>
                 {routes.map((item) => (
                     <li key={item.id}>
