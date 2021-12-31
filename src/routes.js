@@ -16,8 +16,8 @@ const routes = [{
     },
     {
         id: 22,
-        title: 'Website',
-        path: "/Website"
+        title: 'WebDesign',
+        path: "/WebDesign"
     },
     {
         id: 23,

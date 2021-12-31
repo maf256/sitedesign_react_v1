@@ -1,12 +1,12 @@
 import React from 'react'
 import { H1, Maincontainer, Rowdiv, Textdiv, Imgdiv, H2, P } from './About'
 
-const Website = () => {
+const WebDesign = () => {
       return (
             <Maincontainer>
                   <Rowdiv>
                         <Textdiv>
-                              <H1>WEBSITES</H1>
+                              <H1>WebDesign</H1>
                               <H1></H1>
                               <H2>Our Web Design Services</H2>
                               <P>Your website is more than just an online placeholder for your brand; it’s a powerful marketing tool. With the right web design, your site engages, informs, and calls visitors to action, all while staying true to your brand promise.</P>
@@ -19,5 +19,5 @@ const Website = () => {
       )
 }
 
-export default Website
+export default WebDesign
 

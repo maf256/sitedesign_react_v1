@@ -13,7 +13,7 @@ import Contact from './components/Contact'
 import About from './components/About'
 import Services from './components/Services'
 import Itconsulting from './components/Itconsulting'
-import Website from './components/Website'
+import WebDesign from './components/WebDesign'
 import Wordpress from './components/Wordpress'
 import Programming from './components/Programming'
 import Webshops from './components/Webshops'
@@ -47,8 +47,8 @@ export default function Router() {
                 <Route exact path="/ITconsulting">
                     <Itconsulting />
                 </Route>
-                <Route exact path="/Website">
-                    <Website />
+                <Route exact path="/WebDesign">
+                    <WebDesign />
                 </Route>
                 <Route exact path="/Wordpress">
                     <Wordpress />

@@ -15,8 +15,8 @@ const Services = () => {
                   </ServiceContainer>
 
                   <ServiceContainer>
-                        <Link to="/Website">
-                              <H1Services>Website</H1Services>
+                        <Link to="/WebDesign">
+                              <H1Services>WebDesign</H1Services>
                               <PServices>
                                     Your website is more than just an online placeholder for your brand; it’s a powerful marketing tool. With the right web design, your site engages, informs, and calls visitors to action, all while staying true to your brand promise.                              </PServices>
                         </Link>

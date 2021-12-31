@@ -26,7 +26,17 @@ export default function Header() {
     // }
 
 
+    const scrollToTop = () => {
 
+        window.scrollTo({
+
+            top: 0,
+
+            behavior: 'smooth'
+
+        });
+
+    };
 
 
     const [hamContent, setHamContent] = useState('☰')
@@ -56,13 +66,13 @@ export default function Header() {
             <Navbar hamShow={hamContent}>
                 {routes.map((item) => (
                     <li key={item.id}>
-                        <Link onClick={item.title !== "Services" && onClickHam} to={item.path}>
+                        <Link onClick={item.title !== "Services" && onClickHam, scrollToTop} to={item.path}>
                             {item.title}
                         </Link>
                         <ServicesMenu isShow={item.subMenu.length}>
                             {item.subMenu.map((subItem) => (
                                 <li key={subItem.id}>
-                                    <Link onClick={onClickHam} to={subItem.path}>
+                                    <Link onClick={onClickHam, scrollToTop} to={subItem.path}>
                                         {subItem.title}
                                     </Link>
                                 </li>
@@ -165,7 +175,7 @@ const ServicesMenu = styled.ul`
     text-decoration: none;
     visibility: hidden;
     position: absolute;
-    top: 60px;
+    top: 66px;
     /* background: #6e2c2c; */
     background:#6a3093;
     padding: 10px;
