@@ -3,10 +3,21 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
 const Services = () => {
+      const scrollToTop = () => {
+
+            window.scrollTo({
+
+                  top: 0,
+
+                  behavior: 'smooth'
+
+            });
+
+      };
       return (
             <ServicesContainer>
                   <ServiceContainer>
-                        <Link to="/ITconsulting">
+                        <Link onClick={scrollToTop} to="/ITconsulting">
                               <H1Services>IT Consulting</H1Services>
                               <PServices>
                                     We create the best connection between the customer’s needs and the IT solution that will meet the needs and also best suggestion for hardware. We helps you to choose the best solutions for accelerated growth of your business.
@@ -15,7 +26,7 @@ const Services = () => {
                   </ServiceContainer>
 
                   <ServiceContainer>
-                        <Link to="/WebDesign">
+                        <Link onClick={scrollToTop} to="/WebDesign">
                               <H1Services>WebDesign</H1Services>
                               <PServices>
                                     Your website is more than just an online placeholder for your brand; it’s a powerful marketing tool. With the right web design, your site engages, informs, and calls visitors to action, all while staying true to your brand promise.                              </PServices>
@@ -23,7 +34,7 @@ const Services = () => {
 
                   </ServiceContainer>
                   <ServiceContainer>
-                        <Link to="/Wordpress">
+                        <Link onClick={scrollToTop} to="/Wordpress">
                               <H1Services>WordPress</H1Services>
                               <PServices>
                                     WordPress is a free and open-source software written in PHP and paired with a MySQL or MariaDB database, Wordpress is a piece of software that allows you to easily manage content without writing code or learning programming.                              </PServices>
@@ -31,7 +42,7 @@ const Services = () => {
 
                   </ServiceContainer>
                   <ServiceContainer>
-                        <Link to="/Programming">
+                        <Link onClick={scrollToTop} to="/Programming">
                               <H1Services>Programming</H1Services>
                               <PServices>
                                     We can made your websites from scratch.Fresh ideas, innovation, the latest technology. We know what works best: Originality, Sophistication, Creative and clean design, Functionality, UX & UI, Webdevelopment, Webdesign.                              </PServices>
@@ -39,7 +50,7 @@ const Services = () => {
 
                   </ServiceContainer>
                   <ServiceContainer>
-                        <Link to="/Webshops">
+                        <Link onClick={scrollToTop} to="/Webshops">
                               <H1Services>Webshops</H1Services>
                               <PServices>
                                     Start selling online with a dedicated ecommerce website. We’ll help coordinate your commerce goals with your platform and design a storefront that drives ongoing revenue for your business. Shop online                              </PServices>
@@ -47,7 +58,7 @@ const Services = () => {
 
                   </ServiceContainer>
                   <ServiceContainer>
-                        <Link to="/SEO">
+                        <Link onClick={scrollToTop} to="/SEO">
                               <H1Services>SEO</H1Services>
                               <PServices>
                                     (SEO) is the process of improving the quality and quantity of website traffic to a website from search engines. The tactic is to optimize to achieve the best possible visibility with the search engines on your products and services.                              </PServices>
