@@ -62,17 +62,17 @@ export default function Header() {
 
     return (
         <HeaderSection YOffset={offset}>
-            <Link onClick={scrollToTop} to="/"><Logo src={logoSrc} alt="webdesign sandvika" /></Link>
+            <Link onClick={() => scrollToTop()} to="/"><Logo src={logoSrc} alt="webdesign sandvika" /></Link>
             <Navbar hamShow={hamContent}>
                 {routes.map((item) => (
                     <li key={item.id}>
-                        <Link onClick={item.title !== "Services" && onClickHam, scrollToTop} to={item.path}>
+                        <Link onClick={() => { item.title !== "Services" && onClickHam(); scrollToTop(); }} to={item.path}>
                             {item.title}
                         </Link>
                         <ServicesMenu isShow={item.subMenu.length}>
                             {item.subMenu.map((subItem) => (
                                 <li key={subItem.id}>
-                                    <Link onClick={onClickHam, scrollToTop} to={subItem.path}>
+                                    <Link onClick={() => { onClickHam(); scrollToTop(); }} to={subItem.path}>
                                         {subItem.title}
                                     </Link>
                                 </li>

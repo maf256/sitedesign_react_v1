@@ -7,7 +7,7 @@ const SEO = () => {
                   <Rowdiv>
                         <Textdiv>
                               <H1>Our SEO Agency</H1>
-                              <P>Our task is to create the best possible connection between the customer’s needs and the IT solution that will meet the needs. We have in-depth knowledge of the customers’ business and the framework conditions the customer must comply with, as well as a focus on streamlining and utilizing the company’s technology.</P>
+                              <P>Our task is to create the best possible connection between the customer’s needs and the IT solution that will meet <br/>the needs. We have in-depth knowledge of the customers’ business and the framework conditions the customer must comply with, as well as a focus on streamlining and utilizing the company’s technology.</P>
                         </Textdiv>
                         <Imgdiv><img src={`${window.origin}/assets/img/seo1.jpg`} alt="webdesign sandvika"></img></Imgdiv>
                   </Rowdiv>
