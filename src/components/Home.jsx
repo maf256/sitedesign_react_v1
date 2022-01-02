@@ -24,14 +24,14 @@ const HomeTopSection = styled.div`
     padding: 0px auto;
     display: flex;
     align-items: center;
-    background-color:#6667ab ;
+    background-color:#DCDCDC ;
     h1 { 
         width: 50%;
         font-family: "Dancing Script", cursive;
         text-shadow: 2px 2px #aca7a7;
         padding-bottom: 10%;
         padding-left: 8%;
-        color: white;
+        color: #214799;
         font-size: 6.5vw;
     }
     img {

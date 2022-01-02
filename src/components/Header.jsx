@@ -98,7 +98,7 @@ const HeaderSection = styled.div`
     ${({ YOffset }) => YOffset > 200 ?
         `height: 4rem; 
             color: white;
-            background-color: #00000069;
+            background-color: #ffffffcc;
             box-shadow: 0px 2px 5px rgb(0 0 0 / 10%);
             `
         :
@@ -152,14 +152,15 @@ const Navbar = styled.ul`
     }
     a {
         letter-spacing : 1px;
-        color: white ;
+        color: black ;
+        font-weight: 600;
         font-size : 1.1rem;
         text-decoration: none;
     }
     a:hover {
-        color: #e9d5d5;
-        font-style: bold;
-      
+        /* color: #040435; */
+        /* font-style: bold; */
+      border-bottom: 2px solid;
     }
 
     li:hover  ul{
@@ -177,7 +178,7 @@ const ServicesMenu = styled.ul`
     position: absolute;
     top: 66px;
     /* background: #6e2c2c; */
-    background:#6a3093;
+    background:#C0C0C0;
     padding: 10px;
     height: 320px;
     list-style: none;
