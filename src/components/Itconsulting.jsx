@@ -11,10 +11,10 @@ const Itconsulting = () => {
                               <H2>Solving Enterprise level challenges</H2>
                               <P>Technology is instrumental in supporting your business needs as it evolves over time. With the right combination of software, you can successfully solve the toughest business challenges within the standard workflows. Our enterprise consulting services in India and USA will help you on that journey.</P>
                         </Textdiv>
-                        <Imgdiv><img src={`${window.origin}/assets/img/ITConsulting1.jpg`} alt="webdesign sandvika"></img></Imgdiv>
+                        <Imgdiv><img src={`${window.origin}/assets/img/ITConsulting1.jpg`} alt="webdesign sandvika oslo"></img></Imgdiv>
                   </Rowdiv>
                   <Rowdiv>
-                        <Imgdiv><img src={`${window.origin}/assets/img/ITConsulting2.jpg`} alt="webdesign sandvika"></img></Imgdiv>
+                        <Imgdiv><img src={`${window.origin}/assets/img/ITConsulting2.jpg`} alt="webdesign sandvika oslo"></img></Imgdiv>
                         <Textdiv>
                               <H1>We will assist you with the following</H1>
                               <H2>Architecture evaluation and gap analysis</H2>
@@ -35,10 +35,10 @@ const Itconsulting = () => {
                               <H2>Web Design & Development Services</H2>
                               <P>What does your website do for you? Does it engage visitors? Does it tell your story and demonstrate your brand’s value? Does it add value? Whether you need to improve sales or reputation, revitalize an aging website or build a new one from scratch, The Konsulenthus offers comprehensive web design and development services to help you better connect with your customers.</P>
                         </Textdiv>
-                        <Imgdiv><img src={`${window.origin}/assets/img/ITConsulting3.jpg`} alt="webdesign sandvika"></img></Imgdiv>
+                        <Imgdiv><img src={`${window.origin}/assets/img/ITConsulting3.jpg`} alt="webdesign sandvika oslo"></img></Imgdiv>
                   </Rowdiv>
                   <Rowdiv>
-                        <Imgdiv><img src={`${window.origin}/assets/img/ITConsulting4.jpg`} alt="webdesign sandvika"></img></Imgdiv>
+                        <Imgdiv><img src={`${window.origin}/assets/img/ITConsulting4.jpg`} alt="webdesign sandvika oslo"></img></Imgdiv>
                         <Textdiv>
                               <H1>UI/UX Design</H1>
                               <P>Our approach to user interface/user experience web design is based on methodical research, strategic planning, and collaboration. We’ll review your website assets and come up with an experiential design plan that keeps your end user at the heart of all decisions.</P>
@@ -55,7 +55,7 @@ const Itconsulting = () => {
                               <H2>Ecommerce Websit</H2>
                               <P>Start selling online with a dedicated ecommerce website. We’ll help coordinate your commerce goals with your platform and design a storefront that drives ongoing revenue for your business.</P>
                         </Textdiv>
-                        <Imgdiv><img src={`${window.origin}/assets/img/ITConsulting5.jpg`} alt="webdesign sandvika"></img></Imgdiv>
+                        <Imgdiv><img src={`${window.origin}/assets/img/ITConsulting5.jpg`} alt="webdesign sandvika oslo"></img></Imgdiv>
                   </Rowdiv>
 
             </Maincontainer>

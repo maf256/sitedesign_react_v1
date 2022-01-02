@@ -9,7 +9,7 @@ export default function Demo() {
                         AllDemo?.map(item => (
                               <a href={item.aTag}>
                                     <h1>{item.name}</h1>
-                                    <ImgProject src={item.src} alt={"webdesign sandvika"} />
+                                    <ImgProject src={item.src} alt={"webdesign sandvika oslo"} />
                               </a>
                               // <Link key={item.id} to={item.aTag}>
                               // </Link>

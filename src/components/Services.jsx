@@ -25,7 +25,7 @@ const Services = () => {
             <ServicesContainer>
                   <ServiceContainer>
                         <Link onClick={scrollToTop} to="/ITconsulting">
-                              <Imgicons src={icon1Src} alt="webdesign sandvika"></Imgicons>
+                              <Imgicons src={icon1Src} alt="webdesign sandvika oslo"></Imgicons>
                               <H1Services>IT Consulting</H1Services>
                               <PServices>
                                     We create the best connection between the customer’s needs and the IT solution that will meet the needs and also best suggestion for hardware. We helps you to choose the best solutions for accelerated growth of your business.
@@ -35,7 +35,7 @@ const Services = () => {
 
                   <ServiceContainer>
                         <Link onClick={scrollToTop} to="/WebDesign">
-                              <Imgicons src={icon2Src} alt="webdesign sandvika"></Imgicons>
+                              <Imgicons src={icon2Src} alt="webdesign sandvika oslo"></Imgicons>
                               <H1Services>WebDesign</H1Services>
                               <PServices>
                                     Your website is more than just an online placeholder for your brand; it’s a powerful marketing tool. With the right web design, your site engages, informs, and calls visitors to action, all while staying true to your brand promise.                              </PServices>
@@ -44,7 +44,7 @@ const Services = () => {
                   </ServiceContainer>
                   <ServiceContainer>
                         <Link onClick={scrollToTop} to="/Wordpress">
-                              <Imgicons src={icon3Src} alt="webdesign sandvika"></Imgicons>
+                              <Imgicons src={icon3Src} alt="webdesign sandvika oslo"></Imgicons>
                               <H1Services>WordPress</H1Services>
                               <PServices>
                                     WordPress is a free and open-source software written in PHP and paired with a MySQL or MariaDB database, Wordpress is a piece of software that allows you to easily manage content without writing code or learning programming.                              </PServices>
@@ -53,7 +53,7 @@ const Services = () => {
                   </ServiceContainer>
                   <ServiceContainer>
                         <Link onClick={scrollToTop} to="/Programming">
-                              <Imgicons src={icon4Src} alt="webdesign sandvika"></Imgicons>
+                              <Imgicons src={icon4Src} alt="webdesign sandvika oslo"></Imgicons>
                               <H1Services>Programming</H1Services>
                               <PServices>
                                     We can made your websites from scratch.Fresh ideas, innovation, the latest technology. We know what works best: Originality, Sophistication, Creative and clean design, Functionality, UX & UI, Webdevelopment, Webdesign.                              </PServices>
@@ -62,7 +62,7 @@ const Services = () => {
                   </ServiceContainer>
                   <ServiceContainer>
                         <Link onClick={scrollToTop} to="/Webshops">
-                              <Imgicons src={icon5Src} alt="webdesign sandvika"></Imgicons>
+                              <Imgicons src={icon5Src} alt="webdesign sandvika oslo"></Imgicons>
                               <H1Services>Webshops</H1Services>
                               <PServices>
                                     Start selling online with a dedicated ecommerce website. We’ll help coordinate your commerce goals with your platform and design a storefront that drives ongoing revenue for your business. Shop online                              </PServices>
@@ -71,7 +71,7 @@ const Services = () => {
                   </ServiceContainer>
                   <ServiceContainer>
                         <Link onClick={scrollToTop} to="/SEO">
-                              <Imgicons src={icon6Src} alt="webdesign sandvika"></Imgicons>
+                              <Imgicons src={icon6Src} alt="webdesign sandvika oslo"></Imgicons>
                               <H1Services>SEO</H1Services>
                               <PServices>
                                     (SEO) is the process of improving the quality and quantity of website traffic to a website from search engines. The tactic is to optimize to achieve the best possible visibility with the search engines on your products and services.                              </PServices>
@@ -101,7 +101,8 @@ const ServicesContainer = styled.div`
 const ServiceContainer = styled.div`
     box-sizing: border-box;
     width: 320px;
-    height: 360px;
+    padding: 1rem;
+    /* height: 360px; */
     display: flex;
     /* justify-content: center; */
     text-align: center;
@@ -116,6 +117,8 @@ const ServiceContainer = styled.div`
       box-shadow: 0 3px 10px 0px rgb(0 0 0 / 0.2);
       :hover {
             box-shadow: 5px 3px 10px 10px rgb(0 0 0 / 0.2);
+            transition: box-shadow 0.5s;
+
       }
       /* box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%); */
       margin: 2vh 2vw;
@@ -149,10 +152,7 @@ const PServices = styled.p`
 
 const Imgicons = styled.img`
       width: 85px;
-      height: 85px;
-      /* text-align: center; */
-      background-color: red;
-
+      height: auto;
 `
 
 

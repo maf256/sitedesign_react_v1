@@ -14,16 +14,16 @@ const Contact = () => {
                         <h1>SITEDESIGN</h1>
                         <p>Address : Sandvika, Norway</p>
                         <a href="tel:+4740075666">
-                              <Icon src={Phone} alt="webdesign sandvika" ></Icon>&nbsp; &nbsp; Tlf:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  +47 400 75 666
+                              <Icon src={Phone} alt="webdesign sandvika oslo" ></Icon>&nbsp; &nbsp; Tlf:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  +47 400 75 666
                         </a>
                         <a href="https://wa.me/+4740075666">
-                              <Icon src={whatsapp} alt="webdesign sandvika" ></Icon>&nbsp; &nbsp;Whatsapp: +47 400 75 666
+                              <Icon src={whatsapp} alt="webdesign sandvika oslo" ></Icon>&nbsp; &nbsp;Whatsapp: +47 400 75 666
                         </a>
                         <a href="mailto:info@sitedesign.no">
-                              <Icon src={email} alt="webdesign sandvika" ></Icon>&nbsp; &nbsp; info@Sitedesign.no
+                              <Icon src={email} alt="webdesign sandvika oslo" ></Icon>&nbsp; &nbsp; info@Sitedesign.no
                         </a>
                   </div>
-                  <Landingimg src={landing} alt="webdesign sandvika"></Landingimg>
+                  <Landingimg src={landing} alt="webdesign sandvika oslo"></Landingimg>
 
             </ContactContainer>
       )

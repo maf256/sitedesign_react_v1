@@ -9,7 +9,7 @@ export default function Projects() {
                 AllProjects?.map(item => (
                     <a href={item.aTag}>
                         <h1>{item.name}</h1>
-                        <ImgProject src={item.src} alt={"webdesign sandvika"} />
+                        <ImgProject src={item.src} alt={"webdesign sandvika oslo"} />
                     </a>
                 ))
             }
