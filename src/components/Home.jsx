@@ -10,7 +10,7 @@ export default function Home() {
         <>
             <HomeTopSection>
                 <h1>Welcome to Sitedesign</h1>
-                <img src={SrsHomeImage} alt="webdesign sandvika oslo" />
+                <img src={SrsHomeImage} alt="webdesign oslo sandvika" />
             </HomeTopSection>
             <Services />
         </>
@@ -28,10 +28,11 @@ const HomeTopSection = styled.div`
     h1 { 
         width: 50%;
         font-family: "Dancing Script", cursive;
-        text-shadow: 2px 2px #aca7a7;
+        /* text-shadow: 2px 2px #aca7a7; */
         padding-bottom: 10%;
         padding-left: 8%;
         color: #214799;
+        text-shadow: 2px 2px #6994f0;
         font-size: 6.5vw;
     }
     img {

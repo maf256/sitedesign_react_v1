@@ -11,10 +11,10 @@ const About = () => {
                               <H2>We believe in the power of the individual to make great things.</H2>
                               <P>We're SITEDESIGN team. Our mission is to help people with creative ideas stand out and succeed. We create a modern platform that enables millions to build a brand, share their stories, and transact with their customers in an impactful and beautiful online presence. Our services are : IT Consulting, Website, Webshop, Programming, Wordpress, SEO, Digital marketing, Graphic design.</P>
                         </Textdiv>
-                        <Imgdiv><img src={`${window.origin}/assets/img/ablout.jpg`} alt="webdesign sandvika oslo"></img></Imgdiv>
+                        <Imgdiv><img src={`${window.origin}/assets/img/ablout.jpg`} alt="webdesign oslo sandvika"></img></Imgdiv>
                   </Rowdiv>
                   <Rowdiv>
-                        <Imgdiv><img src={`${window.origin}/assets/img/aboutus2.jpg`} alt="webdesign sandvika oslo"></img></Imgdiv>
+                        <Imgdiv><img src={`${window.origin}/assets/img/aboutus2.jpg`} alt="webdesign oslo sandvika"></img></Imgdiv>
                         <Textdiv>
                               <H2>OUR STORY</H2>
                               <P>SITE DESIGN team, a fast scaling start-up that has been based in the heart of Sandvika, Norway since 2018. Having a design, programming background, the founders realized how to improve and change the way people consume digital assets.</P>
@@ -27,10 +27,10 @@ const About = () => {
                               <H2>We provide smart solutions</H2>
                               <P>We make it easy for you to maintain your website yourself. Our solutions are scalable so that the website can be designed according to the needs of your company at all times. By using a page builder and CMS, the appearance of your website can be changed based on user patterns or needs in a simple and cost-effective way. Most of our customers can maintain and develop their new website themselves. The user interface for administration is simple and easy to understand without the need for knowledge of code.</P>
                         </Textdiv>
-                        <Imgdiv><img src={`${window.origin}/assets/img/aboutus3.jpg`} alt="webdesign sandvika oslo"></img></Imgdiv>
+                        <Imgdiv><img src={`${window.origin}/assets/img/aboutus3.jpg`} alt="webdesign oslo sandvika"></img></Imgdiv>
                   </Rowdiv>
                   <Rowdiv>
-                        <Imgdiv><img src={`${window.origin}/assets/img/aboutus4.jpg`} alt="webdesign sandvika oslo"></img></Imgdiv>
+                        <Imgdiv><img src={`${window.origin}/assets/img/aboutus4.jpg`} alt="webdesign oslo sandvika"></img></Imgdiv>
                         <Textdiv>
                               <H2>Recognized CMS</H2>
                               <P>Wordpress accounts for 60% of the market. In second place we find other CMS. Over the years, we have used the two most well-known platforms for website development - WordPress and Joomla. We have developed a number of different solutions, which cover very different needs. In recent years, we have focused on WordPress. WordPress is a solution that makes it quick to implement a new website. Opportunity for fantastic design and a number of plug-ins makes many customers prefer WordPress.</P>
@@ -41,7 +41,7 @@ const About = () => {
                               <H2>Responsive design</H2>
                               <P>Did you know that 70% of users who visit your website use a smartphone? "Mobile first" - by that we mean that your website design should be as good on mobile as on desktop. Your customers will find all available information, on all screen sizes. When using responsive design, navigation and readability will work the same on all devices such as mobile, iPad, laptop and desktop.</P>
                         </Textdiv>
-                        <Imgdiv><img src={`${window.origin}/assets/img/aboutus5.jpg`} alt="webdesign sandvika oslo"></img></Imgdiv>
+                        <Imgdiv><img src={`${window.origin}/assets/img/aboutus5.jpg`} alt="webdesign oslo sandvika"></img></Imgdiv>
                   </Rowdiv>
 
             </Maincontainer>

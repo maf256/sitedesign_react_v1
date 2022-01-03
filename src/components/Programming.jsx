@@ -11,10 +11,10 @@ const Programming = () => {
                               <P>A Website from scratch is a custom designed and hand-coded website. So making a website from scratch is simply means that the site is meticulously constructed according to the clients’ needs, and their specific business requirements.</P>
                               <P>Websites have become more than just simple marketing tools for businesses. Nowadays, people can use them for virtually anything, ranging from socializing and meeting friends to passing information, trading, teaching and many more. There are various website builders, that could be used to create simple up and running websites. However, those web builders have their shortcomings and present many disadvantages. That is the reason why hand-coding or developing a website from scratch, (CMS based) is strongly recommended to business owners or professionals who are looking to build outstanding ones for their business or themselves.</P>
                         </Textdiv>
-                        <Imgdiv><img src={`${window.origin}/assets/img/programing1.jpg`} alt="webdesign sandvika oslo"></img></Imgdiv>
+                        <Imgdiv><img src={`${window.origin}/assets/img/programing1.jpg`} alt="webdesign oslo sandvika"></img></Imgdiv>
                   </Rowdiv>
                   <Rowdiv>
-                        <Imgdiv><img src={`${window.origin}/assets/img/programing2.jpg`} alt="webdesign sandvika oslo"></img></Imgdiv>
+                        <Imgdiv><img src={`${window.origin}/assets/img/programing2.jpg`} alt="webdesign oslo sandvika"></img></Imgdiv>
                         <Textdiv>
                               <H1>ADVANTAGES OF CREATING A SITE FROM SCRATCH</H1>
                               <ul>
@@ -34,10 +34,10 @@ const Programming = () => {
                               <H1>Web Design & Development Services</H1>
                               <P>Programming languages for websites fall into two major categories, namely Frontend and backend. The language use for program a webpage for the Frontend are HTML, CSS, and JavaScript.</P>
                         </Textdiv>
-                        <Imgdiv><img src={`${window.origin}/assets/img/ITConsulting5.jpg`} alt="webdesign sandvika oslo"></img></Imgdiv>
+                        <Imgdiv><img src={`${window.origin}/assets/img/ITConsulting5.jpg`} alt="webdesign oslo sandvika"></img></Imgdiv>
                   </Rowdiv>
                   <Rowdiv>
-                        <Imgdiv><img src={`${window.origin}/assets/img/programing4.jpg`} alt="webdesign sandvika oslo"></img></Imgdiv>
+                        <Imgdiv><img src={`${window.origin}/assets/img/programing4.jpg`} alt="webdesign oslo sandvika"></img></Imgdiv>
                         <Textdiv>
                               <H1>Frontend Technologies:</H1>
                               <ul>
@@ -65,7 +65,7 @@ const Programming = () => {
                               <H1>Backend technologies:</H1>
                               <P>Backend can be written in many different languages including Node.JS, Python, Ruby, PHP and Java but We usually use JavaScript (Node.js) in the backend as well as frontend. We also have experience in using SQL and noSQL databases such as: PostgreSQL, MySQL, MangoDB, Redis and … .</P>
                         </Textdiv>
-                        <Imgdiv><img src={`${window.origin}/assets/img/programing5.jpg`} alt="webdesign sandvika oslo"></img></Imgdiv>
+                        <Imgdiv><img src={`${window.origin}/assets/img/programing5.jpg`} alt="webdesign oslo sandvika"></img></Imgdiv>
                   </Rowdiv>
 
             </Maincontainer>
