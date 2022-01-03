@@ -22,7 +22,7 @@ const ProjectsBody = styled.div`
     width: 100%;
     min-height: 400px;
     justify-content: space-evenly;
-    background-color: #6667ab;
+    background-color: #DCDCDC;
     color: #333;
     width: 100%;
     flex-wrap: wrap;
@@ -41,11 +41,12 @@ const ImgProject = styled.img`
     width: 350px;
     height: auto;
     object-fit: cover;
+    box-shadow: 0 0px 3px 3px rgb(0 0 0 / 0.2);
     filter: grayscale(80%);
     :hover {
     filter: grayscale(0%);
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    
+    box-shadow: 0px 0px 10px 10px rgb(0 0 0 / 20%);
+    transition: box-shadow 0.5s;
     }
 
 `

@@ -11,8 +11,6 @@ export default function Demo() {
                                     <h1>{item.name}</h1>
                                     <ImgProject src={item.src} alt={"webdesign sandvika oslo"} />
                               </a>
-                              // <Link key={item.id} to={item.aTag}>
-                              // </Link>
                         ))
                   }
             </DemoBody>
@@ -26,7 +24,7 @@ const DemoBody = styled.div`
     padding: 7%;
     padding-top: 150px;
     justify-content: space-evenly;
-    background-color: #6667ab;
+    background-color: #DCDCDC;
     color: #333;
     width: 100%;
     flex-wrap: wrap;
@@ -46,8 +44,8 @@ const ImgProject = styled.img`
     :hover 
     {
       filter: grayscale(0%);
-      box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-      top: -10px;
+      box-shadow: 0px 0px 10px 10px rgb(0 0 0 / 20%);
+      transition: box-shadow 0.5s;
     }
 
 `

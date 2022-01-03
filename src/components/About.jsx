@@ -53,7 +53,7 @@ export default About
 const Maincontainer = styled.div`
       padding-top: 200px;
       min-height:90vh;
-      background-color: #6667ab;
+      background-color: #DCDCDC;
       @media (max-width: 750px) {
             display: flex;
           flex-wrap: wrap;
@@ -83,7 +83,6 @@ const Imgdiv = styled.div`
             max-width: 550px;
             height: auto;
             object-fit: cover;
-            /* padding-left: 4px; */
       }
       @media (max-width: 750px) {
             width: 100%;
@@ -97,8 +96,8 @@ const Imgdiv = styled.div`
 `
 
 const H1 = styled.h1` 
-      color: #a58d08;
-      text-shadow: 0.5px 0.5px #ffd700;
+      color: #214799;
+      text-shadow: 1px 1px #6994f0;
       font-size: 28px;
       line-height: 25px;
       margin-top: 2px;
@@ -108,7 +107,7 @@ const H2 = styled.h2`
       font-size: 24px;
       margin-top: 3px;
       font-weight: 100;
-      color: white;
+      color: black;
 
       
 `
@@ -116,7 +115,7 @@ const P = styled.p`
       font-size: 16px;
       line-height: 27px;
       margin-top: 2px;
-      color: white;
+      color: black;
       letter-spacing: 0.2px;
 `
 

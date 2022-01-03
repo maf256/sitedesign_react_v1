@@ -40,15 +40,15 @@ const ContactContainer = styled.div`
       align-items: center;
       flex-wrap: wrap;
       min-height: 90vh;
-      background-color: #6667ab;
+      background-color: #DCDCDC;
       p {
             font-size: 18px;
             font-weight: bold;
             line-height: 27px;
       }
       h1 {
-            color: #998100;
-            text-shadow: 2px 2px #ffd700;
+            color: #214799;
+            text-shadow: 1px 1px #6994f0;
             font-size:45px;
       }
       a{
@@ -56,7 +56,7 @@ const ContactContainer = styled.div`
             align-items: center;
             text-decoration: none;
             color : black;    
-            border-left: 4px solid #6667ab;
+            border-left: 4px solid #DCDCDC;
             width: 250px;
       }
       a:hover {

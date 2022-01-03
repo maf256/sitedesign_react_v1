@@ -1,5 +1,5 @@
 
-import { useState, useEffect, useLayoutEffect } from 'react'
+import { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import logoSrc from '../assets/img/logo2626.png';
@@ -142,8 +142,6 @@ const Navbar = styled.ul`
 
     }
     list-style-type: none;
-    /* background-color: black; */
-    /* color: white; */
     display: flex;
     padding-right: 20px;
     justify-content: space-between;
@@ -158,8 +156,6 @@ const Navbar = styled.ul`
         text-decoration: none;
     }
     a:hover {
-        /* color: #040435; */
-        /* font-style: bold; */
       border-bottom: 2px solid;
     }
 
@@ -177,12 +173,10 @@ const ServicesMenu = styled.ul`
     visibility: hidden;
     position: absolute;
     top: 66px;
-    /* background: #6e2c2c; */
     background:#C0C0C0;
     padding: 10px;
     height: 320px;
     list-style: none;
-    /* opacity: 0; */
     box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
     transition: all 0.3s ease-in-out 0s, visibility 400ms ease-in-out 100ms, opacity 400ms ease-in-out 100ms, top 400ms ease-in-out 100ms;
     z-index: 1;

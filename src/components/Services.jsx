@@ -102,9 +102,7 @@ const ServiceContainer = styled.div`
     box-sizing: border-box;
     width: 320px;
     padding: 1rem;
-    /* height: 360px; */
     display: flex;
-    /* justify-content: center; */
     text-align: center;
     @media (max-width: 500px) {
       width: 300px;
@@ -112,15 +110,12 @@ const ServiceContainer = styled.div`
 
       }
 
-      /* border: 0.5px solid; */
       background-color: white;
-      box-shadow: 0 3px 10px 0px rgb(0 0 0 / 0.2);
+      box-shadow: 0px 0px 3px 3px rgb(0 0 0 / 0.2);
       :hover {
-            box-shadow: 5px 3px 10px 10px rgb(0 0 0 / 0.2);
+            box-shadow: 0px 0px 10px 10px rgb(0 0 0 / 0.2);
             transition: box-shadow 0.5s;
-
       }
-      /* box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%); */
       margin: 2vh 2vw;
     a{
         text-decoration: none;
@@ -129,7 +124,6 @@ const ServiceContainer = styled.div`
 `
 
 const H1Services = styled.h1`
-    /* text-align: center; */
     color: #214799; 
     margin: 0%;
     font-weight: bold;
@@ -156,5 +150,3 @@ const Imgicons = styled.img`
 `
 
 
-
-// Eurobazzar.com with POLAR CHARGE AS / Validregnskapas.no with SOLID REGNSKAP AS / Narverud.no with NARVERUD EIENDOM AS / Soofirestaurant.no with SOOFI RESTAURANT & BAR AS / persiarestaurant.no with PERSIA CLASSIC AS / godthandverkas.no with GODT HÅNDVERK OSLO & AKERSHUS AS / Toyenblomster.no with Tøyens blomster fazel / artimismedicalbeauty.no with ARTIMIS MEDICAL BEAUTY / Privehairandbeauty.no with BJERKE FRISØR /
