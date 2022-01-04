@@ -125,7 +125,7 @@ const Navbar = styled.ul`
         display: ${({ hamShow }) => hamShow === "╳" ? "flex" : "none"};
         flex-direction: column;
         justify-content: space-evenly;
-        background-color: #000000d9;
+        background-color: #525151d9;
         align-items: center;
         width: 100vw;
         height: 100vh;
