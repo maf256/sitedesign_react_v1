@@ -106,7 +106,6 @@ const ServiceContainer = styled.div`
     text-align: center;
     @media (max-width: 500px) {
       width: 300px;
-      height: 310px;
 
       }
 
