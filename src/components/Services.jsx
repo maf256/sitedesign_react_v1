@@ -113,7 +113,8 @@ const ServiceContainer = styled.div`
       box-shadow: 0px 0px 3px 3px rgb(0 0 0 / 0.2);
       :hover {
             box-shadow: 0px 0px 10px 10px rgb(0 0 0 / 0.2);
-            transition: box-shadow 0.5s;
+            transform: translateY(-0.5em);
+            transition: transform 0.5s , box-shadow 0.5s;
       }
       margin: 2vh 2vw;
     a{

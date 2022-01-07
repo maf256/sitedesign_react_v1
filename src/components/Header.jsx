@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import logoSrc from '../assets/img/logo2626.png';
+import logoSrc from '../assets/img/logo3ny80.png';
 import routes from '../routes';
 
 export default function Header() {
@@ -89,7 +89,7 @@ export default function Header() {
 const HeaderSection = styled.div`
     height: 70px;
     width: 100%;
-    padding: 0px 10px;
+    padding: 0px 30px;
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -116,9 +116,15 @@ const HeaderSection = styled.div`
 `
 
 const Logo = styled.img`
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     margin-left:10px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }  
 `
 const Navbar = styled.ul`
     @media (max-width: 750px) {
