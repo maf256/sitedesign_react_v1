@@ -52,10 +52,10 @@ export default function Header() {
     function onClickHam() {
         if (hamContent === "☰") {
             setHamContent('╳')
-            // { document.body.style.overflow = "hidden" }
+            { document.body.style.overflow = "hidden" }
         } else {
             setHamContent('☰')
-            // { document.body.style.overflow = "auto" }
+            { document.body.style.overflow = "auto" }
         }
 
     }

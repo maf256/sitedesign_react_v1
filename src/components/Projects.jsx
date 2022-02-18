@@ -7,7 +7,7 @@ export default function Projects() {
         <ProjectsBody>
             {
                 AllProjects?.map(item => (
-                    <a href={item.aTag}>
+                    <a href={item.aTag} target="_blank">
                         <h1>{item.name}</h1>
                         <ImgProject src={item.src} alt={"webdesign oslo sandvika"} />
                     </a>
