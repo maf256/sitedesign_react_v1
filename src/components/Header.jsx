@@ -6,25 +6,7 @@ import logoSrc from '../assets/img/logo3ny80.png';
 import routes from '../routes';
 
 export default function Header() {
-
-    // function useWindowSize() {
-    //     const [size, setSize] = useState([0]);
-    //     useLayoutEffect(() => {
-    //         function updateSize() {
-    //             setSize(window.innerWidth);
-    //         }
-    //         window.addEventListener('resize', updateSize);
-    //         updateSize();
-    //         return () => window.removeEventListener('resize', updateSize);
-    //     }, []);
-    //     return size;
-    // }
-
-    // function ShowWindowDimensions(props) {
-    //     const [width, height] = useWindowSize();
-    //     return <span>Window size: {width} x {height}</span>;
-    // }
-
+    window.addEventListener('resize', handleResize)
 
     const scrollToTop = () => {
 
@@ -59,20 +41,32 @@ export default function Header() {
         }
 
     }
+    function onClick() {
+        setHamContent('☰')
+        { document.body.style.overflow = "auto" }
+    }
 
+    function handleResize() {
+        if (window.innerWidth > 749 && hamContent === "╳") {
+            console.log('width', window.innerWidth, 'ham', hamContent)
+            setHamContent('☰')
+            { document.body.style.overflow = "auto" }
+        }
+
+    }
     return (
         <HeaderSection YOffset={offset}>
             <Link onClick={() => scrollToTop()} to="/"><Logo src={logoSrc} alt="webdesign oslo sandvika" /></Link>
             <Navbar hamShow={hamContent}>
                 {routes.map((item) => (
                     <li key={item.id}>
-                        <Link onClick={() => { item.title !== "Services" && onClickHam(); scrollToTop(); }} to={item.path}>
+                        <Link onClick={() => { item.title !== "Services" && onClick(); scrollToTop(); }} to={item.path}>
                             {item.title}
                         </Link>
                         <ServicesMenu isShow={item.subMenu.length}>
                             {item.subMenu.map((subItem) => (
                                 <li key={subItem.id}>
-                                    <Link onClick={() => { onClickHam(); scrollToTop(); }} to={subItem.path}>
+                                    <Link onClick={() => { onClick(); scrollToTop(); }} to={subItem.path}>
                                         {subItem.title}
                                     </Link>
                                 </li>
@@ -110,7 +104,7 @@ const HeaderSection = styled.div`
     }
       transition: all .5s ease-in-out;
       position: fixed;
-      overflow: visible;
+      /* overflow: visible; */
       z-index: 1001;
 
 `
