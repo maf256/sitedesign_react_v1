@@ -6,7 +6,6 @@ import logoSrc from '../assets/img/logo3ny80.png';
 import routes from '../routes';
 
 export default function Header() {
-    window.addEventListener('resize', handleResize)
 
     const scrollToTop = () => {
 
@@ -25,8 +24,13 @@ export default function Header() {
     const [offset, setOffset] = useState(0);
 
     useEffect(() => {
-        window.onscroll = () => {
-            setOffset(window.pageYOffset)
+        window.addEventListener('resize', handleResize)
+        window.addEventListener('scroll', () => setOffset(window.pageYOffset))
+        return () => {
+            return (
+                window.removeEventListener('resize', handleResize),
+                window.removeEventListener('scroll', () => setOffset(window.pageYOffset))
+            )
         }
     }, []);
 
@@ -48,7 +52,7 @@ export default function Header() {
 
     function handleResize() {
         if (window.innerWidth > 749 && hamContent === "╳") {
-            console.log('width', window.innerWidth, 'ham', hamContent)
+
             setHamContent('☰')
             { document.body.style.overflow = "auto" }
         }
@@ -90,21 +94,20 @@ const HeaderSection = styled.div`
     align-items: center;
 
     ${({ YOffset }) => YOffset > 200 ?
-        `height: 4rem; 
+        `   height: 4rem; 
             color: white;
             background-color: #ffffffcc;
             box-shadow: 0px 2px 5px rgb(0 0 0 / 10%);
-            `
+        `
         :
-        `height: 7rem; 
+        `   height: 7rem; 
             color: black;
             background-color: #00000000;
             box-shadow: 0;
-            `
+        `
     }
       transition: all .5s ease-in-out;
       position: fixed;
-      /* overflow: visible; */
       z-index: 1001;
 
 `
@@ -181,7 +184,7 @@ const ServicesMenu = styled.ul`
     transition: all 0.3s ease-in-out 0s, visibility 400ms ease-in-out 100ms, opacity 400ms ease-in-out 100ms, top 400ms ease-in-out 100ms;
     z-index: 1;
 `
-const HamMenu = styled.a`
+const HamMenu = styled.span`
     padding-right: 10px;
     color: white;
     font-weight: bold;

@@ -6,8 +6,8 @@ export default function Demo() {
       return (
             <DemoBody>
                   {
-                        AllDemo?.map(item => (
-                              <a href={item.aTag} target="_blank">
+                        AllDemo?.map((item, index) => (
+                              <a key={index + item.id} href={item.aTag} target="_blank">
                                     <h1>{item.name}</h1>
                                     <ImgProject src={item.src} alt={"webdesign oslo sandvika"} />
                               </a>

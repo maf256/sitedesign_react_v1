@@ -28,7 +28,6 @@ const HomeTopSection = styled.div`
     h1 { 
         width: 50%;
         font-family: "Dancing Script", cursive;
-        /* text-shadow: 2px 2px #aca7a7; */
         padding-bottom: 10%;
         padding-left: 8%;
         color: #214799;
